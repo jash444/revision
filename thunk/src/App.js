@@ -13,8 +13,8 @@ import Posts from "./Pages/Posts";
 export default function App() {
   return <div className="App">
     <Routes>
-            <Route path="/" element={Home}/>
-            <Route path="/posts" element={Posts}/>
+            <Route path="/" element={<Home></Home>}/>
+            <Route path="/posts" element={<Posts></Posts>}/>
         </Routes>
     <AllRoutes />
    

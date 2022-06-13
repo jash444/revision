@@ -32,7 +32,11 @@ export const actionTypes = {
     }
   };
 
-  export const loginSuccess = (data) => { return {
+  export const loginSuccess = (data) =>
+  
+ {  
+  console.log(data)
+   return {
     type:actionTypes.SUCCESS,
     paylod:data
   

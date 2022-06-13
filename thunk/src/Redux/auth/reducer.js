@@ -11,9 +11,14 @@ const Reducer = (state = initialState, action) => {
         case actionTypes.LOADING:
             return { ...state, authError: "" };
         case actionTypes.SUCCESS:
-            console.log(state);
+            state=action.paylod
+         
             return {
-              addUser: action.payload
+              state
+               
+               
+                
+                
             };
         case actionTypes.FAILURE:
             return state;
